@@ -1,0 +1,168 @@
+
+RSD PTR: Checksum=72, OEMID=ALWARE, Revision=2, RsdtAddress=0x2eb5d028
+	Length=36, XsdtAddress=0x000000002eb5d0c0, Extended Checksum=105
+
+
+RSDT: Length=148, Revision=1, Checksum=83,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=MSFT, Creator Revision=0x10013
+
+
+	Entries={ 0x2eb5d1d0, 0x2eb83540, 0x2eb83600, 0x2eb83648, 0x2eb836e8, 0x2eb83728, 0x2eb83760, 0x2eb83b50, 0x2eb84358, 0x2eb843f0, 0x2eb84638, 0x2eb871e8, 0x2eb87690, 0x2eb876c8, 0x2eb87720, 0x2eb87d90, 0x2eb8b910, 0x2eb8b938, 0x2eb8bab0, 0x2eb91120, 0x2eb91168, 0x2eb911c0, 0x2eb92038, 0x2eb92070, 0x2eb92110, 0x2eb921b8, 0x2eb921f0, 0x2eb95330 }
+
+
+	DSDT=0x2eb5d258
+	INT_MODEL=APIC
+	SCI_INT=9
+	SMI_CMD=0xb2, ACPI_ENABLE=0xa0, ACPI_DISABLE=0xa1, S4BIOS_REQ=0x0
+	PM1a_EVT_BLK=0x1800-0x1803
+	PM1a_CNT_BLK=0x1804-0x1805
+	PM2_CNT_BLK=0x1850-0x1850
+	PM2_TMR_BLK=0x1808-0x180b
+	PM2_GPE0_BLK=0x1880-0x189f
+	P_LVL2_LAT=101ms, P_LVL3_LAT=57ms
+	FLUSH_SIZE=1024, FLUSH_STRIDE=16
+	DUTY_OFFSET=0, DUTY_WIDTH=0
+	DAY_ALRM=13, MON_ALRM=0, CENTURY=50
+	Flags={WBINVD,PROC_C1,SLP_BUTTON,RTC_S4,DCK_CAP}
+
+
+DSDT: Length=156120, Revision=2, Checksum=201,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+APIC: Length=188, Revision=3, Checksum=196,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=AMI, Creator Revision=0x10013
+
+
+FPDT: Length=68, Revision=1, Checksum=213,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=AMI, Creator Revision=0x10013
+
+
+FIDT: Length=156, Revision=1, Checksum=250,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=AMI, Creator Revision=0x10013
+
+
+MCFG: Length=60, Revision=1, Checksum=178,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=MSFT, Creator Revision=0x97
+
+
+HPET: Length=56, Revision=1, Checksum=92,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=AMI., Creator Revision=0x5000b
+
+
+SSDT: Length=1007, Revision=1, Checksum=67,
+	OEMID=SataRe, OEM Table ID=SataTabl, OEM Revision=0x1000,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+SSDT: Length=2055, Revision=2, Checksum=96,
+	OEMID=Intel, OEM Table ID=PerfTune, OEM Revision=0x1000,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+LPIT: Length=148, Revision=1, Checksum=32,
+	OEMID=INTEL, OEM Table ID=SKL, OEM Revision=0x0,
+	Creator ID=MSFT, Creator Revision=0x5f
+
+
+SSDT: Length=584, Revision=2, Checksum=248,
+	OEMID=INTEL, OEM Table ID=sensrhub, OEM Revision=0x0,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+SSDT: Length=11182, Revision=2, Checksum=244,
+	OEMID=INTEL, OEM Table ID=PtidDevc, OEM Revision=0x1000,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+SSDT: Length=1187, Revision=2, Checksum=172,
+	OEMID=INTEL, OEM Table ID=zpodd, OEM Revision=0x1000,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+DBGP: Length=52, Revision=1, Checksum=117,
+	OEMID=INTEL, OEM Table ID=, OEM Revision=0x0,
+	Creator ID=MSFT, Creator Revision=0x5f
+
+
+DBG2: Length=84, Revision=0, Checksum=240,
+	OEMID=INTEL, OEM Table ID=, OEM Revision=0x0,
+	Creator ID=MSFT, Creator Revision=0x5f
+
+
+SSDT: Length=1644, Revision=2, Checksum=66,
+	OEMID=INTEL, OEM Table ID=xh_rvp11, OEM Revision=0x0,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+SSDT: Length=15225, Revision=2, Checksum=19,
+	OEMID=DptfTa, OEM Table ID=DptfTabl, OEM Revision=0x1000,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+BOOT: Length=40, Revision=1, Checksum=13,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=AMI, Creator Revision=0x10013
+
+
+SLIC: Length=374, Revision=1, Checksum=133,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=AMI, Creator Revision=0x10013
+
+
+SSDT: Length=22123, Revision=2, Checksum=24,
+	OEMID=SaSsdt, OEM Table ID=SaSsdt, OEM Revision=0x3000,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+UEFI: Length=66, Revision=1, Checksum=12,
+	OEMID=, OEM Table ID=, OEM Revision=0x0,
+	Creator ID=, Creator Revision=0x0
+
+
+MSDM: Length=85, Revision=3, Checksum=3,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=AMI, Creator Revision=0x10013
+
+
+SSDT: Length=3699, Revision=2, Checksum=106,
+	OEMID=CpuRef, OEM Table ID=CpuSsdt, OEM Revision=0x3000,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+BGRT: Length=56, Revision=1, Checksum=123,
+	OEMID=ALWARE, OEM Table ID=ALIENWRE, OEM Revision=0x1072009,
+	Creator ID=AMI, Creator Revision=0x10013
+
+
+SSDT: Length=159, Revision=2, Checksum=237,
+	OEMID=SgRef, OEM Table ID=SgPeg, OEM Revision=0x1000,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+DMAR: Length=168, Revision=1, Checksum=181,
+	OEMID=INTEL, OEM Table ID=SKL, OEM Revision=0x1,
+	Creator ID=INTL, Creator Revision=0x1
+
+
+TPM2: Length=52, Revision=3, Checksum=78,
+	OEMID=DELL, OEM Table ID=Tpm2Tabl, OEM Revision=0x1,
+	Creator ID=AMI, Creator Revision=0x0
+
+
+SSDT: Length=12604, Revision=1, Checksum=203,
+	OEMID=OptRef, OEM Table ID=OptTabl, OEM Revision=0x1000,
+	Creator ID=INTL, Creator Revision=0x20120913
+
+
+SSDT: Length=36, Revision=1, Checksum=145,
+	OEMID=OemRef, OEM Table ID=OemNvT, OEM Revision=0x1000,
+	Creator ID=INTL, Creator Revision=0x20120913
+
